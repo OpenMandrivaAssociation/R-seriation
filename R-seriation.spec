@@ -10,9 +10,10 @@ License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.0-6.tar.gz
 Requires:         R-stats R-cluster R-TSP R-gclus R-grid R-colorspace 
-Requires:         R-MASS R-biclust 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-stats R-cluster R-TSP R-gclus R-grid R-colorspace
-BuildRequires:    R-MASS R-biclust 
+Requires:         R-MASS R-biclust
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-stats R-cluster R-TSP R-gclus R-grid R-colorspace
+BuildRequires:    R-MASS R-biclust
 
 %description
 Infrastructure for seriation with an implementation of several
