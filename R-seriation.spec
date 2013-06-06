@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.0.9
+Version:          1.0.10
 Release:          1
 Summary:          Infrastructure for seriation
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/seriation_1.0-9.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/seriation_1.0-10.tar.gz
 Requires:         R-stats R-cluster R-TSP R-gclus R-grid R-colorspace 
 Requires:         R-MASS R-biclust
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex
@@ -50,3 +50,7 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+<<<<<<< HEAD
+=======
+
+>>>>>>> auto_update
