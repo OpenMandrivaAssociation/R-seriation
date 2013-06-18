@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.0.10
-Release:          1
+Release:          2
 Summary:          Infrastructure for seriation
 Group:            Sciences/Mathematics
 License:          GPL-2
