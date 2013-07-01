@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.0.10
-Release:          2
+Release:          1
 Summary:          Infrastructure for seriation
 Group:            Sciences/Mathematics
 License:          GPL-2
@@ -50,7 +50,3 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
-<<<<<<< HEAD
-=======
-
->>>>>>> auto_update
